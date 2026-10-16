@@ -3444,7 +3444,6 @@ public class FragmentC2259e extends Fragment {
             this.f9594aZ = null;
         }
         super.onPause();
-        getActivity().finish();
     }
 
     @Override // android.app.Fragment
