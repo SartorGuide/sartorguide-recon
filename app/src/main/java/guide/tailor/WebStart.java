@@ -468,20 +468,14 @@ public class WebStart extends AppCompatActivity {
     }
 
     private String launchVideoActivity(String jsonSettings) {
-        try {
-            @SuppressWarnings("unchecked")
-            Class<? extends android.app.Activity> videoClass =
-                    (Class<? extends android.app.Activity>)
-                            Class.forName("guide.tailor.VideoActivity");
-            Intent intent = new Intent(this, videoClass);
-            intent.putExtra("jsonSettings", jsonSettings);
-            startActivityForResult(intent, REQUEST_VIDEO_ACTIVITY);
-            return "OK";
-        } catch (ClassNotFoundException e) {
-            // TODO(M3): VideoActivity not yet ported.
-            Log.w(TAG, "VideoActivity missing; startFilming stubbed");
-            return "CANCELED";
-        }
+        // start_filming must open the real capture flow (angle detection ->
+        // calibration -> Camera2 photos), which lives in CaptureActivity.
+        // VideoActivity is only an instructional "how to edit points" clip and
+        // is reachable from inside the capture screen, so it is NOT the target.
+        Intent intent = new Intent(this, CaptureActivity.class);
+        intent.putExtra("jsonSettings", jsonSettings);
+        startActivityForResult(intent, REQUEST_VIDEO_ACTIVITY);
+        return "OK";
     }
 
     private String handleLogin(JSONObject json) throws JSONException {
