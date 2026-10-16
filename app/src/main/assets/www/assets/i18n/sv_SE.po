@@ -1,0 +1,895 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: app-html\n"
+"Language: sv\n"
+
+#: 
+msgid "Account scheduled for removal"
+msgstr "Användarkontot blir raderat inom kort"
+
+#: 
+msgid "Added"
+msgstr ""
+
+#: 
+msgid "After posing?"
+msgstr ""
+
+#: 
+msgid "All done!"
+msgstr ""
+
+#: 
+msgid "Allow %s on %s?"
+msgstr ""
+
+#: 
+msgid "Allowed stores"
+msgstr ""
+
+#: 
+msgid "An indicator will show the correct angle."
+msgstr ""
+
+#: 
+msgid "Anonymous feedback"
+msgstr ""
+
+#: 
+msgid "Authorizations"
+msgstr ""
+
+#: 
+msgid "Cancel"
+msgstr ""
+
+#: 
+msgid "Change"
+msgstr ""
+
+#: 
+msgid "Change password"
+msgstr ""
+
+#: 
+msgid "Continue"
+msgstr ""
+
+#: 
+msgid "Delete everything"
+msgstr ""
+
+#: 
+msgid "Delete your profile and data"
+msgstr ""
+
+#: 
+msgid "Dismiss"
+msgstr ""
+
+#: 
+msgid "Do you allow this online store to access your TailorGuide profile? Only accept if you made this request yourself."
+msgstr ""
+
+#: 
+msgid "Email"
+msgstr ""
+
+#: 
+msgid "Error getting user data"
+msgstr ""
+
+#: 
+msgid "Existing account"
+msgstr ""
+
+#: 
+msgid "Failed to change password"
+msgstr ""
+
+#: 
+msgid "Failed to delete account"
+msgstr ""
+
+#: 
+msgid "Feedback"
+msgstr ""
+
+#: 
+msgid "Female"
+msgstr ""
+
+#: 
+msgid "First name"
+msgstr ""
+
+#: 
+msgid "Firstname"
+msgstr ""
+
+#: 
+msgid "Forgot password?"
+msgstr ""
+
+#: 
+msgid "History"
+msgstr ""
+
+#: 
+msgid "How to pose?"
+msgstr ""
+
+#: 
+msgid "Instructions"
+msgstr ""
+
+#: 
+msgid "Instructions."
+msgstr ""
+
+#: 
+msgid "Just a moment, please..."
+msgstr ""
+
+#: 
+msgid "Last name"
+msgstr ""
+
+#: 
+msgid "Last updated"
+msgstr ""
+
+#: 
+msgid "Lastname"
+msgstr ""
+
+#: 
+msgid "Login"
+msgstr ""
+
+#: 
+msgid "Logout"
+msgstr ""
+
+#: 
+msgid "Make sure the password you entered was correct"
+msgstr ""
+
+#: 
+msgid "Male"
+msgstr ""
+
+#: 
+msgid "Menu"
+msgstr ""
+
+#: 
+msgid "New Password"
+msgstr ""
+
+#: 
+msgid "New user"
+msgstr ""
+
+#: 
+msgid "Old Password"
+msgstr ""
+
+#: 
+msgid "Password"
+msgstr ""
+
+#: 
+msgid "Password Again"
+msgstr ""
+
+#: 
+msgid "Password and repeat password must be the same"
+msgstr ""
+
+#: 
+msgid "Password changed"
+msgstr ""
+
+#: 
+msgid "Passwords don't match"
+msgstr ""
+
+#: 
+msgid "Pending requests to access your profile data"
+msgstr ""
+
+#: 
+msgid "Place your device on the floor leaning against a wall"
+msgstr ""
+
+#: 
+msgid "Please contact support."
+msgstr ""
+
+#: 
+msgid "Please dress in close-fitting clothing or underwear and tie your hair to the back if you have long hair."
+msgstr ""
+
+#: 
+msgid "Please use a strong password"
+msgstr ""
+
+#: 
+msgid "Please wait..."
+msgstr ""
+
+#: 
+msgid "Position yourself into the center of the screen inside the person template feet shoulder width apart. Lift your hands all the way up and lower them to the pictured position. This will help setting your undershirt correctly on the armpits."
+msgstr ""
+
+#: 
+msgid "Preferred Clothing"
+msgstr ""
+
+#: 
+msgid "Profile and Settings"
+msgstr ""
+
+#: 
+msgid "Repeat New Password"
+msgstr ""
+
+#: 
+msgid "Request a password reset link to your email address."
+msgstr ""
+
+#: 
+msgid "Sending email..."
+msgstr ""
+
+#: 
+msgid "Sending response..."
+msgstr ""
+
+#: 
+msgid "Skip"
+msgstr ""
+
+#: 
+msgid "Start measuring"
+msgstr ""
+
+#: 
+msgid "Start using"
+msgstr ""
+
+#: 
+msgid "Swipe left for instructions."
+msgstr ""
+
+#: 
+msgid "TailorGuide is an app that lets you measure yourself with the help of your mobile devices front camera."
+msgstr ""
+
+#: 
+msgid "The next step is getting you measured."
+msgstr ""
+
+#: 
+msgid "This profile page will show your current measurements and measurement history."
+msgstr ""
+
+#: 
+msgid "Undo"
+msgstr ""
+
+#: 
+msgid "Welcome to TailorGuide"
+msgstr ""
+
+#: 
+msgid "What to wear?"
+msgstr ""
+
+#: 
+msgid "Where to measure?"
+msgstr ""
+
+#: 
+msgid "With a few words, let us know how we are doing"
+msgstr ""
+
+#: 
+msgid "You can always measure yourself again by pressing the camera button on the top right corner."
+msgstr ""
+
+#: 
+msgid "You can now login with your new password"
+msgstr ""
+
+#: 
+msgid "You haven't authorized any online stores to access your profile yet."
+msgstr ""
+
+#: 
+msgid "You should check our instructions before getting measured."
+msgstr ""
+
+#: 
+msgid "Your account will now be deleted in the next automated cleanup. This may take from a few hours to a few days."
+msgstr ""
+
+#: 
+msgid "authorized"
+msgstr ""
+
+#: 
+msgid "forgot password?"
+msgstr ""
+
+#: 
+msgid "name@example.com"
+msgstr ""
+
+#: 
+msgid "waiting"
+msgstr ""
+
+#: 
+msgid "Authorized Stores"
+msgstr ""
+
+#: 
+msgid "Your Profile"
+msgstr ""
+
+#: 
+msgid "DELETE"
+msgstr ""
+
+#: 
+msgid "Submit"
+msgstr ""
+
+#: 
+msgid "or"
+msgstr ""
+
+#: 
+msgid "**Leave the screen completely until you hear the shutter click sound.** Try not to cast any shadows on the measuring area when you are outside the screen."
+msgstr ""
+
+#: 
+msgid "Version:"
+msgstr ""
+
+#: 
+msgid "Login to your account to continue"
+msgstr ""
+
+#: 
+msgid "You can also swipe left for information"
+msgstr ""
+
+#: 
+msgid "Find your perfect clothes"
+msgstr ""
+
+#: 
+msgid "Full privacy"
+msgstr ""
+
+#: 
+msgid "Photos don't leave your device"
+msgstr ""
+
+#: 
+msgid "Smarter sizes"
+msgstr ""
+
+#: 
+msgid "Sophisticated computer vision to measure yourself"
+msgstr ""
+
+#: 
+msgid "Delete"
+msgstr ""
+
+#: 
+msgid "Error sending measurements"
+msgstr ""
+
+#: 
+msgid "Retry"
+msgstr ""
+
+#: 
+msgid "Saving measurements..."
+msgstr ""
+
+#: 
+msgid "There might be a problem with the network connection. Do you want to try again?"
+msgstr ""
+
+#: 
+msgid "Close"
+msgstr ""
+
+#: 
+msgid "Could not change authorization status. This request might have already been deleted."
+msgstr ""
+
+#: 
+msgid "Could not change authorization status. Unknown error."
+msgstr ""
+
+#: 
+msgid "Could not send measurements. Please try again."
+msgstr ""
+
+#: 
+msgid "Could not send measurements. Unknown error. Please try again."
+msgstr ""
+
+#: 
+msgid "Error"
+msgstr ""
+
+#: 
+msgid "Error logging in"
+msgstr ""
+
+#: 
+msgid "Error registering"
+msgstr ""
+
+#: 
+msgid "Feedback sent."
+msgstr ""
+
+#: 
+msgid "Internal server error. Please try again later."
+msgstr ""
+
+#: 
+msgid "Password and password verification must be the same."
+msgstr ""
+
+#: 
+msgid "Password error"
+msgstr ""
+
+#: 
+msgid "Thank you!"
+msgstr ""
+
+#: 
+msgid "Could not log in. Wrongly formatted email or password."
+msgstr ""
+
+#: 
+msgid "Could not login. Unknown error."
+msgstr ""
+
+#: 
+msgid "Could not register. Unknown error."
+msgstr ""
+
+#: 
+msgid "Could not send password reset email. Unknown error."
+msgstr ""
+
+#: 
+msgid "We could not find an account with the email address. Please check the email address or register a new account if you don't have one."
+msgstr ""
+
+#: 
+msgid "Wrong password. Please check your email address and password and try again."
+msgstr ""
+
+#: 
+msgid "Doe"
+msgstr ""
+
+#: 
+msgid "Email sent, check your inbox"
+msgstr ""
+
+#: 
+msgid "John"
+msgstr ""
+
+#: 
+msgid "Success"
+msgstr ""
+
+#: 
+msgid "Unknown error."
+msgstr ""
+
+#: 
+msgid "By continuing you are accepting our terms of service"
+msgstr ""
+
+#: 
+msgid "Men's clothing"
+msgstr ""
+
+#: 
+msgid "Read"
+msgstr ""
+
+#: 
+msgid "Terms of Service"
+msgstr ""
+
+#: 
+msgid "Women's clothing"
+msgstr ""
+
+#: 
+msgid "Back"
+msgstr ""
+
+#: 
+msgid "Authorize a Store"
+msgstr ""
+
+#: 
+msgid "Authorized stores lists all the different device and store combinations you have allowed to access your profile for size matching."
+msgstr ""
+
+#: 
+msgid "Login by scanning a QR code shown on the online store."
+msgstr ""
+
+#: 
+msgid "Login via a push notification by entering your email address on the online store. Or using your password."
+msgstr ""
+
+#: 
+msgid "Scan"
+msgstr ""
+
+#: 
+msgid "Do you want to store your measurements?"
+msgstr ""
+
+#: 
+msgid "Register"
+msgstr ""
+
+#: 
+msgid "Test without an account"
+msgstr ""
+
+#: 
+msgid "You finished taking your measurements without an account. If you want to store the measurements register an account now. Alternatively you can delete these measurements."
+msgstr ""
+
+#: 
+msgid "Facebook"
+msgstr ""
+
+#: 
+msgid "Google"
+msgstr ""
+
+#: 
+msgid "Latest"
+msgstr ""
+
+#: 
+msgid "Loading profile..."
+msgstr ""
+
+#: 
+msgid "Login error"
+msgstr ""
+
+#: 
+msgid "Measurement name"
+msgstr ""
+
+#: 
+msgid "Name restored"
+msgstr ""
+
+#: 
+msgid "Preferred clothing"
+msgstr ""
+
+#: 
+msgid "There was an error while logging in"
+msgstr ""
+
+#: 
+msgid "Value"
+msgstr ""
+
+#: 
+msgid "Wrong password."
+msgstr ""
+
+#: 
+msgid "value restored"
+msgstr ""
+
+#: 
+msgid "Loading measurements..."
+msgstr ""
+
+#: 
+msgid "Maximum value is 300cm"
+msgstr ""
+
+#: 
+msgid "My Measurements"
+msgstr ""
+
+#: 
+msgid "Profile restored"
+msgstr ""
+
+#: 
+msgid "Saving new name ..."
+msgstr ""
+
+#: 
+msgid "Saving new value for "
+msgstr ""
+
+#: 
+msgid "Saving profile ..."
+msgstr ""
+
+#: 
+msgid "Edit"
+msgstr ""
+
+#: 
+msgid "Invalid value"
+msgstr ""
+
+#: 
+msgid "Please, only use numbers"
+msgstr ""
+
+#: 
+msgid "Anonymous"
+msgstr ""
+
+#: 
+msgid "Loading options..."
+msgstr ""
+
+#: 
+msgid "Please try again later"
+msgstr ""
+
+#: 
+msgid "Select anonymous if you don't want to be identified."
+msgstr ""
+
+#: 
+msgid "Send as "
+msgstr ""
+
+#: 
+msgid "Your feedback "
+msgstr ""
+
+#: 
+msgid "Logging out ..."
+msgstr ""
+
+#: 
+msgid "To authorize online stores, visit the website of an online store and product where TailorGuide is enabled and follow the instructions."
+msgstr ""
+
+#: 
+msgid "Could not register. Please check that your email address, password and other details are correct."
+msgstr ""
+
+#: 
+msgid "Details missing"
+msgstr ""
+
+#: 
+msgid "OK"
+msgstr ""
+
+#: 
+msgid "Please enter your name."
+msgstr ""
+
+#: 
+msgid "This email address is already in use. Please login instead of registering a new account."
+msgstr ""
+
+#: 
+msgid "Wrong email address. Please try again."
+msgstr ""
+
+#: 
+msgid "Your password must contain at least 6 characters."
+msgstr ""
+
+#: 
+msgid "There are a few different ways to link your TailorGuide profile to a store:"
+msgstr ""
+
+#: 
+msgid "Action required"
+msgstr ""
+
+#: 
+msgid "Connection problem"
+msgstr ""
+
+#: 
+msgid "Existing TailorGuide account"
+msgstr ""
+
+#: 
+msgid "Google account already linked with this email, please sign in using Google login"
+msgstr ""
+
+#: 
+msgid "Link account"
+msgstr ""
+
+#: 
+msgid "Link with an existing TailorGuide account or create a new one."
+msgstr ""
+
+#: 
+msgid "Please wait for a few minutes and try again."
+msgstr ""
+
+#: 
+msgid "Register new"
+msgstr ""
+
+#: 
+msgid "The connection could not be established, please try again later."
+msgstr ""
+
+#: 
+msgid "Too many attempts"
+msgstr ""
+
+#: 
+msgid "ARE YOU SURE? If you want to continue, please enter your password."
+msgstr ""
+
+#: 
+msgid "Error getting products data"
+msgstr ""
+
+#: 
+msgid "If you do not have a password set, please use forgot password tool before deleting your account."
+msgstr ""
+
+#: 
+msgid "Loading products..."
+msgstr ""
+
+#: 
+msgid "Products"
+msgstr ""
+
+#: 
+msgid "Please wait for a few minutes before trying again"
+msgstr ""
+
+#: 
+msgid "Loading stores..."
+msgstr ""
+
+#: 
+msgid "Supported Stores"
+msgstr ""
+
+#: 
+msgid "After measuring, check that the measurement points of your feet and head are aligned correctly."
+msgstr ""
+
+#: 
+msgid "After measuring?"
+msgstr ""
+
+#: 
+msgid "The best results are obtained with: spacious room (also space behind you), good lighting, solid color background, high color contrast between you and the background. Please notice, reflections from the floor or wall may affect your measurements."
+msgstr ""
+
+#: 
+msgid "Turn **right** and lift your **left** arm straight forward.  \n"
+"Keep your right hand down on your side.  \n"
+"Keep your lifted hand in fist."
+msgstr ""
+
+#: 
+msgid "Campaign"
+msgstr ""
+
+#: 
+msgid "Logging in..."
+msgstr ""
+
+#: 
+msgid "Stores"
+msgstr ""
+
+#: 
+msgid "Update available"
+msgstr ""
+
+#: 
+msgid "Update"
+msgstr ""
+
+#: 
+msgid "Later"
+msgstr ""
+
+#: 
+msgid "Your version of TailorGuide is outdated and may soon stop working. Please update."
+msgstr ""
+
+#: 
+msgid "All pictures are deleted when the measurement is done."
+msgstr ""
+
+#: 
+msgid "Are you sure?"
+msgstr ""
+
+#: 
+msgid "CANCEL"
+msgstr ""
+
+#: 
+msgid "Deleting measurements..."
+msgstr ""
+
+#: 
+msgid "If you are sure, press DELETE"
+msgstr ""
+
+#: 
+msgid "Measurement deleted"
+msgstr ""
+
+#: 
+msgid "Pictures taken during the measurement  process will not be saved on the device, nor sent to any servers."
+msgstr ""
+
+#: 
+msgid "Your Privacy"
+msgstr ""
+
+#: 
+msgid "Protecting your privacy has always been one of the foundations for TailorGuide."
+msgstr ""
+
+#: 
+msgid "We not only comply with privacy laws, but also go beyond this by making privacy a key requirement in our engineering."
+msgstr ""
+
+#: 
+msgid "You can read more about privacy on "
+msgstr ""
+
+#: 
+msgid "You have the control."
+msgstr ""
+
+#: 
+msgid "our website"
+msgstr ""
+
+#: 
+msgid "Our size guide has been built in a way, that you don't need to share your measurements directly with online stores to get size suggestions. Unless you explicitly request to do so."
+msgstr ""
+

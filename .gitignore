@@ -1,0 +1,32 @@
+# Gradle / build
+.gradle/
+build/
+app/build/
+**/build/
+
+# Local config
+local.properties
+*.iml
+.idea/
+.cxx/
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Keystore / secrets
+*.jks
+*.keystore
+keystore.properties
+
+# Logs / crash
+*.log
+crashlytics-build.properties
+
+# Captured outputs
+captures/
+.externalNativeBuild/
+
+# Tasks metadata (agent internal)
+.tasks/

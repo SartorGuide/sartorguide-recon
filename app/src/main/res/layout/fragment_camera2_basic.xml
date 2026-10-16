@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <guide.tailor.AutoFitTextureView android:id="@id/texture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="false" android:layout_centerInParent="true" android:layout_alignWithParentIfMissing="false" android:layout_alignParentStart="false" />
+    <FrameLayout android:id="@id/old_camera_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/cameraApiPreview" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/control" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@id/personmask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@android:color/transparent" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/colorPrimaryDark" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/countdown_img" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" app:srcCompat="@drawable/countdown_3" />
+                <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/KeepAwayText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/flashEffect" android:background="#96ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/angle_instructions_frame" android:background="@color/colorBackground" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:theme="?actionBarTheme" android:id="@id/toolbar2" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:title="@string/Title_set_angle" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="58.0dip">
+                <TextView android:textAppearance="@android:style/TextAppearance.Material.Medium" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/fillerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@android:style/TextAppearance.Material.Medium" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/calibrateBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/CalibrationActivity_calibrate_btn" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/mute_btn" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_volume_up_white_24dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip">
+            <View android:id="@id/shadow_top" android:background="@drawable/shadow_top" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="80.0dip" android:layout_height="fill_parent">
+                    <ProgressBar android:layout_gravity="left" android:id="@id/pitchbar" android:padding="10.0dip" android:layout_width="80.0dip" android:layout_height="fill_parent" android:max="600" android:progress="600" android:progressDrawable="@drawable/progress_drawable" style="@android:style/Widget.ProgressBar.Horizontal" />
+                    <LinearLayout android:orientation="vertical" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <View android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.3" />
+                        <View android:background="@color/colorPrimary" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+                        <View android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.43" />
+                        <View android:background="@color/colorPrimary" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+                        <View android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.3" />
+                    </LinearLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentTop="true" android:foregroundGravity="top">
+                        <ImageView android:layout_gravity="center|top" android:id="@id/angle_instructions_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_weight="1.0" app:srcCompat="@drawable/info_device" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/shadow" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+            <LinearLayout android:orientation="vertical" android:background="@color/colorPrimaryDark" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+                <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:textSize="24.0sp" android:textColor="@android:color/white" android:textColorLink="@android:color/white" android:gravity="center" android:id="@id/angle_instructions_label" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Angle_full_first" android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/progress_layout" android:background="@color/colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:theme="?actionBarTheme" android:id="@id/camera_progress_text" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:title="@string/str_task_processing" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/measuring_progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:maxWidth="50.0dip" android:maxHeight="50.0dip" android:minWidth="20.0dip" android:minHeight="20.0dip" style="?android:progressBarStyleLarge" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <android.support.v4.view.ViewPager android:id="@id/info_swipe_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <android.support.design.widget.TabLayout android:id="@id/tabDots" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:tabBackground="@drawable/tab_selector" app:tabGravity="center" app:tabIndicatorHeight="0.0dip" />
+        </RelativeLayout>
+        <View android:id="@id/shadow_progress" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorPrimaryDark" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <Button android:enabled="false" android:id="@id/loading_donebtn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Loading_quide_continue_btn" android:layout_weight="0.75" style="@style/Widget.AppCompat.Button.Colored" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <VideoView android:layout_gravity="center" android:id="@id/videoView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:textAlignment="center" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Large" android:textColor="@android:color/background_light" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/subText" android:background="?android:colorForeground" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="start|center|top" android:id="@id/restart_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" app:fabSize="mini" app:srcCompat="@drawable/restart_icon" />
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/skip_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" app:srcCompat="@drawable/close_icon" />
+    <Button android:layout_gravity="end|center|top" android:id="@id/skiptext_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/CalibrationActivity_dialog_no" android:elevation="5.0dip" style="@style/Widget.AppCompat.Button.Colored" />
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progressBarVideo" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+</android.support.design.widget.CoordinatorLayout>

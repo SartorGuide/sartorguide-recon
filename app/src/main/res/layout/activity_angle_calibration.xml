@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/angleBarFrame" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="fill_parent">
+                <ProgressBar android:layout_gravity="left" android:id="@id/indicatorbar" android:padding="10.0dip" android:visibility="visible" android:layout_width="80.0dip" android:layout_height="fill_parent" android:max="1000" android:progress="0" android:progressDrawable="@drawable/progress_drawable_calibration" style="@android:style/Widget.ProgressBar.Horizontal" />
+                <LinearLayout android:orientation="vertical" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <View android:background="@android:color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5" />
+                    <ImageView android:id="@id/calibration_arrows" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="6.0dip" android:scaleType="fitXY" android:layout_weight="0.5" app:srcCompat="@drawable/arrows" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentTop="true" android:foregroundGravity="top">
+                    <ImageView android:layout_gravity="center|top" android:id="@id/calibration_instructions_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_weight="1.0" app:srcCompat="@drawable/angle_calibration_1" />
+                    <ProgressBar android:id="@id/calibration_counter" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="50.0dip" android:max="100" android:progress="20" style="?android:progressBarStyle" />
+                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Medium" android:id="@id/debugTxt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Debug info" />
+                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:textColor="@color/colorLight" android:layout_gravity="center" android:id="@id/slower_text" android:background="#ffa21e1e" android:padding="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CalibrationActivity_calibrate_slower" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/shadow" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@color/colorPrimaryDark" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:textSize="18.0sp" android:textColor="@android:color/white" android:textColorLink="@android:color/white" android:gravity="center" android:id="@id/calibration_instructions_lbl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/CalibrationActivity_instruction_1" android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

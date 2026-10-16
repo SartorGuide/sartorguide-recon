@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TailorGuide</string>
+    <string name="CalibrationActivity_instruction_3">Hold your device steady</string>
+    <string name="Camera2BasicFragment_Angle_Xnotcalibrated">X axis not calibrated</string>
+    <string name="Camera2BasicFragment_Angle_Ynotcalibrated">Y axis not calibrated</string>
+    <string name="Camera2BasicFragment_Angle_Znotcalibrated">Z axis not calibrated</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <guide.tailor.zoomImageViewKotlin android:layout_gravity="center" android:id="@id/imageView_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/info_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/info_animation_view" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="10.0dip" app:lottie_autoPlay="true" app:lottie_imageAssetsFolder="info_animation" app:lottie_loop="true" app:lottie_rawRes="@raw/info_anim" />
+                    <com.airbnb.lottie.LottieAnimationView android:id="@id/corner_info_animation" android:background="@color/colorLight" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_weight="1.7" app:lottie_autoPlay="true" app:lottie_imageAssetsFolder="shared_anim" app:lottie_loop="true" app:lottie_rawRes="@raw/point_shoulder_right_man" />
+                    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/corner_info_image" android:background="@color/colorLight" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitEnd" android:layout_weight="1.7" android:foregroundGravity="bottom" app:srcCompat="@drawable/info_perspective_woman_1" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:id="@id/shadow_point_edit" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+            <android.support.design.widget.CoordinatorLayout android:id="@id/coordinatorL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/result_edit_view" android:background="@color/colorPrimaryDark" android:padding="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@id/edit_point_cancel_btn" android:background="@color/colorAccent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="60.0dip" android:elevation="2.0dip" app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+            <TextView android:textColor="#ffeaeaea" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textView_editName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:textAlignment="center" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+            <Button android:id="@id/edit_point_confirm_btn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="100.0dip" android:text="@string/btn_edit_points_apply" android:textAlignment="center" style="@style/Widget.AppCompat.Button.Colored" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

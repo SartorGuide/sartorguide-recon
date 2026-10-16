@@ -1,0 +1,898 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: app-html\n"
+"Language: es\n"
+
+#: 
+msgid "Account scheduled for removal"
+msgstr "Cuenta programada para la eliminación"
+
+#: 
+msgid "Added"
+msgstr "Añadido"
+
+#: 
+msgid "After posing?"
+msgstr "Después de posar?"
+
+#: 
+msgid "All done!"
+msgstr "¡Todo listo!"
+
+#: 
+msgid "Allow %s on %s?"
+msgstr "¿Permitir %s en %s?"
+
+#: 
+msgid "Allowed stores"
+msgstr "Tiendas permitidas"
+
+#: 
+msgid "An indicator will show the correct angle."
+msgstr "Un indicador mostrará el ángulo correcto."
+
+#: 
+msgid "Anonymous feedback"
+msgstr "Comentarios anónimos"
+
+#: 
+msgid "Authorizations"
+msgstr "Autorizaciones"
+
+#: 
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: 
+msgid "Change"
+msgstr "Cambio"
+
+#: 
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: 
+msgid "Continue"
+msgstr "Continuar"
+
+#: 
+msgid "Delete everything"
+msgstr "Eliminar todo"
+
+#: 
+msgid "Delete your profile and data"
+msgstr "Eliminar tu perfil y tus datos"
+
+#: 
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: 
+msgid "Do you allow this online store to access your TailorGuide profile? Only accept if you made this request yourself."
+msgstr "¿Permite que esta tienda tenga acceso a su perfil de TailorGuide? Acepte solamente si hizo esta petición usted mismo."
+
+#: 
+msgid "Email"
+msgstr "Correo"
+
+#: 
+msgid "Error getting user data"
+msgstr "Error al obtener datos de usuario"
+
+#: 
+msgid "Existing account"
+msgstr "¿Tienes una cuenta?"
+
+#: 
+msgid "Failed to change password"
+msgstr "Error al cambiar la contraseña"
+
+#: 
+msgid "Failed to delete account"
+msgstr "Error al eliminar la cuenta"
+
+#: 
+msgid "Feedback"
+msgstr "Comentarios"
+
+#: 
+msgid "Female"
+msgstr "Mujer"
+
+#: 
+msgid "First name"
+msgstr "Nombre"
+
+#: 
+msgid "Firstname"
+msgstr "Nombre"
+
+#: 
+msgid "Forgot password?"
+msgstr "Olvidaste tu contraseña?"
+
+#: 
+msgid "History"
+msgstr "Historia"
+
+#: 
+msgid "How to pose?"
+msgstr "¿Cómo posar?"
+
+#: 
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: 
+msgid "Instructions."
+msgstr "Instrucciones."
+
+#: 
+msgid "Just a moment, please..."
+msgstr "Un momento por favor..."
+
+#: 
+msgid "Last name"
+msgstr "Apellido"
+
+#: 
+msgid "Last updated"
+msgstr "Última actualización"
+
+#: 
+msgid "Lastname"
+msgstr "Apellido"
+
+#: 
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: 
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: 
+msgid "Make sure the password you entered was correct"
+msgstr "Asegúrese de que la contraseña introducida es correcta"
+
+#: 
+msgid "Male"
+msgstr "Hombre"
+
+#: 
+msgid "Menu"
+msgstr "Menú"
+
+#: 
+msgid "New Password"
+msgstr "Nueva contraseña"
+
+#: 
+msgid "New user"
+msgstr "Nuevo usuario"
+
+#: 
+msgid "Old Password"
+msgstr "Contraseña anterior"
+
+#: 
+msgid "Password"
+msgstr "Contraseña"
+
+#: 
+msgid "Password Again"
+msgstr "Repetir contraseña"
+
+#: 
+msgid "Password and repeat password must be the same"
+msgstr "La contraseña y la contraseña de repetición deben ser las mismas"
+
+#: 
+msgid "Password changed"
+msgstr "Contraseña cambiada"
+
+#: 
+msgid "Passwords don't match"
+msgstr "Las contraseñas no coinciden"
+
+#: 
+msgid "Pending requests to access your profile data"
+msgstr "Solicitudes pendientes para acceder a los datos de tu perfil"
+
+#: 
+msgid "Place your device on the floor leaning against a wall"
+msgstr "Coloque su dispositivo en el suelo apoyado contra una pared"
+
+#: 
+msgid "Please contact support."
+msgstr "Por favor, ponte en contacto con asistencia."
+
+#: 
+msgid "Please dress in close-fitting clothing or underwear and tie your hair to the back if you have long hair."
+msgstr "Por favor, vestirse con ropa ajustada o ropa interior y atar su cabello a la espalda si tiene pelo largo."
+
+#: 
+msgid "Please use a strong password"
+msgstr "Por favor, utilice una contraseña segura"
+
+#: 
+msgid "Please wait..."
+msgstr "Por favor, espere..."
+
+#: 
+msgid "Position yourself into the center of the screen inside the person template feet shoulder width apart. Lift your hands all the way up and lower them to the pictured position. This will help setting your undershirt correctly on the armpits."
+msgstr "Colóquese en el centro de la pantalla dentro de la plantilla de la persona con los pies separados por el ancho de los hombros. Levante las manos hasta arriba y bájelas hasta la posición de la foto. Esto ayudará a configurar su camiseta correctamente en las axilas."
+
+#: 
+msgid "Preferred Clothing"
+msgstr "Ropa preferida"
+
+#: 
+msgid "Profile and Settings"
+msgstr "Perfil y configuración"
+
+#: 
+msgid "Repeat New Password"
+msgstr "Repetir nueva contraseña"
+
+#: 
+msgid "Request a password reset link to your email address."
+msgstr "Solicite un enlace de restablecimiento de contraseña a su dirección de correo electrónico."
+
+#: 
+msgid "Sending email..."
+msgstr "Envíando email..."
+
+#: 
+msgid "Sending response..."
+msgstr "Envíando respuesta..."
+
+#: 
+msgid "Skip"
+msgstr "Omitir"
+
+#: 
+msgid "Start measuring"
+msgstr "Comienza a medir"
+
+#: 
+msgid "Start using"
+msgstr "Empieza a usar"
+
+#: 
+msgid "Swipe left for instructions."
+msgstr "Desliza el dedo hacia la izquierda para obtener instrucciones."
+
+#: 
+msgid "TailorGuide is an app that lets you measure yourself with the help of your mobile devices front camera."
+msgstr "TailorGuide es una aplicación que te permite medirte a ti mismo con la ayuda de la cámara frontal de tu dispositivo móvil."
+
+#: 
+msgid "The next step is getting you measured."
+msgstr "El siguiente paso es medirte."
+
+#: 
+msgid "This profile page will show your current measurements and measurement history."
+msgstr "Esta página de perfil mostrará tus medidas actuales y el historia de medidas."
+
+#: 
+msgid "Undo"
+msgstr "Deshacer"
+
+#: 
+msgid "Welcome to TailorGuide"
+msgstr "Bienvenido a TailorGuide"
+
+#: 
+msgid "What to wear?"
+msgstr "¿Qué ponerse?"
+
+#: 
+msgid "Where to measure?"
+msgstr "¿Dónde medir?"
+
+#: 
+msgid "With a few words, let us know how we are doing"
+msgstr "Con algunas palabras, háganos saber cómo estamos haciendo"
+
+#: 
+msgid "You can always measure yourself again by pressing the camera button on the top right corner."
+msgstr "Siempre puedes medirte otra vez presionando el botón de la cámara en la esquina superior derecha."
+
+#: 
+msgid "You can now login with your new password"
+msgstr "Ahora puede iniciar sesión con su nueva contraseña"
+
+#: 
+msgid "You haven't authorized any online stores to access your profile yet."
+msgstr "Todavía no has autorizado ninguna tienda online para acceder a tu perfil."
+
+#: 
+msgid "You should check our instructions before getting measured."
+msgstr "Usted debería leer nuestras instrucciones antes de medirse."
+
+#: 
+msgid "Your account will now be deleted in the next automated cleanup. This may take from a few hours to a few days."
+msgstr "Su cuenta se eliminará en la próxima limpieza automatizada. Esto puede tomar de unas pocas horas a unos pocos días."
+
+#: 
+msgid "authorized"
+msgstr "autorizada"
+
+#: 
+msgid "forgot password?"
+msgstr "¿Ha olvidado su contraseña?"
+
+#: 
+msgid "name@example.com"
+msgstr "nombre@dominios.es"
+
+#: 
+msgid "waiting"
+msgstr "esperando"
+
+#: 
+msgid "Authorized Stores"
+msgstr "Tiendas autorizadas"
+
+#: 
+msgid "Your Profile"
+msgstr "Tu perfil"
+
+#: 
+msgid "DELETE"
+msgstr "ELIMINAR"
+
+#: 
+msgid "Submit"
+msgstr "Enviar"
+
+#: 
+msgid "or"
+msgstr "o"
+
+#: 
+msgid "**Leave the screen completely until you hear the shutter click sound.** Try not to cast any shadows on the measuring area when you are outside the screen."
+msgstr "**Deje la pantalla completamente hasta que escuche el sonido de tomar la fotografia.** Trate de no proyectar sombras en el área de medición cuando esté fuera de la pantalla."
+
+#: 
+msgid "Version:"
+msgstr "Version:"
+
+#: 
+msgid "Login to your account to continue"
+msgstr "Ingrese a su cuenta para continuar"
+
+#: 
+msgid "You can also swipe left for information"
+msgstr "Desliza a la izquierda para información"
+
+#: 
+msgid "Find your perfect clothes"
+msgstr "Encuentra tu ropa perfecta"
+
+#: 
+msgid "Full privacy"
+msgstr "Privacidad completa"
+
+#: 
+msgid "Photos don't leave your device"
+msgstr "Las fotos no salen de tu dispositivo"
+
+#: 
+msgid "Smarter sizes"
+msgstr "Smarter sizes"
+
+#: 
+msgid "Sophisticated computer vision to measure yourself"
+msgstr "Visión por ordenador sofisticada para medirte"
+
+#: 
+msgid "Delete"
+msgstr "Eliminar"
+
+#: 
+msgid "Error sending measurements"
+msgstr "Error al enviar las medidas"
+
+#: 
+msgid "Retry"
+msgstr "Reintentar"
+
+#: 
+msgid "Saving measurements..."
+msgstr "Guardando medidas..."
+
+#: 
+msgid "There might be a problem with the network connection. Do you want to try again?"
+msgstr "Es posible que existe una problema con la conexión de red. ¿Quieres intentarlo de nuevo?"
+
+#: 
+msgid "Close"
+msgstr "Cerrar"
+
+#: 
+msgid "Could not change authorization status. This request might have already been deleted."
+msgstr "No se pudo cambiar el estado de la autorización. Es posible que esta solicitud ya se haya eliminado."
+
+#: 
+msgid "Could not change authorization status. Unknown error."
+msgstr "No se pudo cambiar el estado de la autorización. Error desconocido."
+
+#: 
+msgid "Could not send measurements. Please try again."
+msgstr "No se pueden enviar medidas. Vuelve a intentarlo."
+
+#: 
+msgid "Could not send measurements. Unknown error. Please try again."
+msgstr "No se pueden enviar medidas. Error desconocido. Vuelve a intentarlo."
+
+#: 
+msgid "Error"
+msgstr "Error"
+
+#: 
+msgid "Error logging in"
+msgstr "Error al iniciar sesión"
+
+#: 
+msgid "Error registering"
+msgstr "Error al registrarse"
+
+#: 
+msgid "Feedback sent."
+msgstr "Comentarios enviados."
+
+#: 
+msgid "Internal server error. Please try again later."
+msgstr "Error interno del servidor. Por favor, inténtelo de nuevo más tarde."
+
+#: 
+msgid "Password and password verification must be the same."
+msgstr "La contraseña y su verificación deben ser los mismos."
+
+#: 
+msgid "Password error"
+msgstr "Error de contraseña"
+
+#: 
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#: 
+msgid "Could not log in. Wrongly formatted email or password."
+msgstr "No se pudo iniciar sesión. El correo electrónico o la contraseña son de formato incorrecta."
+
+#: 
+msgid "Could not login. Unknown error."
+msgstr "No se pudo iniciar sesión. Error desconocido."
+
+#: 
+msgid "Could not register. Unknown error."
+msgstr "No se pudo registrar. Error desconocido.\n"
+""
+
+#: 
+msgid "Could not send password reset email. Unknown error."
+msgstr "No se pudo enviar correo electrónico de restablecimiento de contraseña. Error desconocido."
+
+#: 
+msgid "We could not find an account with the email address. Please check the email address or register a new account if you don't have one."
+msgstr "No se encuentra una cuenta con esta dirección de correo electrónico. Por favor, compruebe la dirección de correo electrónico, o registrar una nueva cuenta si no tiene uno."
+
+#: 
+msgid "Wrong password. Please check your email address and password and try again."
+msgstr "Contraseña incorrecta. Por favor, compruebe su dirección de correo electrónico y contraseña y vuelva a intentarlo."
+
+#: 
+msgid "Doe"
+msgstr "Español"
+
+#: 
+msgid "Email sent, check your inbox"
+msgstr "Correo electrónico enviado"
+
+#: 
+msgid "John"
+msgstr "Juan"
+
+#: 
+msgid "Success"
+msgstr "Ok"
+
+#: 
+msgid "Unknown error."
+msgstr "Error desconocido."
+
+#: 
+msgid "By continuing you are accepting our terms of service"
+msgstr "Al continuar aceptas los términos de servicio"
+
+#: 
+msgid "Men's clothing"
+msgstr "Ropa de Hombre"
+
+#: 
+msgid "Read"
+msgstr "Leer"
+
+#: 
+msgid "Terms of Service"
+msgstr "Términos de Servicio"
+
+#: 
+msgid "Women's clothing"
+msgstr "Ropa de Mujer"
+
+#: 
+msgid "Back"
+msgstr "Volver"
+
+#: 
+msgid "Authorize a Store"
+msgstr "Autoriza una Tienda"
+
+#: 
+msgid "Authorized stores lists all the different device and store combinations you have allowed to access your profile for size matching."
+msgstr "Las tiendas autorizadas enumeran todas las diferentes combinaciones de dispositivos y tiendas que ha permitido acceder a su perfil para la coincidencia de tamaños."
+
+#: 
+msgid "Login by scanning a QR code shown on the online store."
+msgstr "Inicie sesión escaneando un código QR que se muestra en la tienda web"
+
+#: 
+msgid "Login via a push notification by entering your email address on the online store. Or using your password."
+msgstr "Inicie sesión mediante una notificación push ingresando su dirección de correo electrónico en la tienda web. O usando tu contraseña"
+
+#: 
+msgid "Scan"
+msgstr "Escanear"
+
+#: 
+msgid "Do you want to store your measurements?"
+msgstr "¿Quieres guardad tus medidas?"
+
+#: 
+msgid "Register"
+msgstr "Registrar"
+
+#: 
+msgid "Test without an account"
+msgstr "Prueba sin cuenta"
+
+#: 
+msgid "You finished taking your measurements without an account. If you want to store the measurements register an account now. Alternatively you can delete these measurements."
+msgstr "Terminaste de tomar tus medidas sin una cuenta. Si desea guardar las medidas, registre una cuenta ahora. Alternativamente, puede eliminar estas medidas."
+
+#: 
+msgid "Facebook"
+msgstr "Facebook"
+
+#: 
+msgid "Google"
+msgstr "Google"
+
+#: 
+msgid "Latest"
+msgstr "Último"
+
+#: 
+msgid "Loading profile..."
+msgstr "Cargando perfil..."
+
+#: 
+msgid "Login error"
+msgstr "Error de inicio de sesión"
+
+#: 
+msgid "Measurement name"
+msgstr "Nombre de medidas"
+
+#: 
+msgid "Name restored"
+msgstr "Nombre restaurado"
+
+#: 
+msgid "Preferred clothing"
+msgstr "Ropa preferida"
+
+#: 
+msgid "There was an error while logging in"
+msgstr "Hubo un error al iniciar sesión"
+
+#: 
+msgid "Value"
+msgstr "Valor"
+
+#: 
+msgid "Wrong password."
+msgstr "Contraseña incorrecta."
+
+#: 
+msgid "value restored"
+msgstr "valor restaurado"
+
+#: 
+msgid "Loading measurements..."
+msgstr "Cargando medidas..."
+
+#: 
+msgid "Maximum value is 300cm"
+msgstr "El valor máximo es de 300cm"
+
+#: 
+msgid "My Measurements"
+msgstr "Mis medidas"
+
+#: 
+msgid "Profile restored"
+msgstr "Perfil restaurado"
+
+#: 
+msgid "Saving new name ..."
+msgstr "Guardando un nuevo nombre..."
+
+#: 
+msgid "Saving new value for "
+msgstr "Guardando un nuevo valor para "
+
+#: 
+msgid "Saving profile ..."
+msgstr "Guardando perfil..."
+
+#: 
+msgid "Edit"
+msgstr "Editar"
+
+#: 
+msgid "Invalid value"
+msgstr "Valor no válido"
+
+#: 
+msgid "Please, only use numbers"
+msgstr "Por favor, solo use números"
+
+#: 
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: 
+msgid "Loading options..."
+msgstr "Cargando opciones..."
+
+#: 
+msgid "Please try again later"
+msgstr "Por favor, inténtelo de nuevo más tarde"
+
+#: 
+msgid "Select anonymous if you don't want to be identified."
+msgstr "Seleccione anónimo si no desea ser identificado."
+
+#: 
+msgid "Send as "
+msgstr "Enviar como "
+
+#: 
+msgid "Your feedback "
+msgstr "Tus comentarios  "
+
+#: 
+msgid "Logging out ..."
+msgstr "Saliendo de tu cuenta..."
+
+#: 
+msgid "To authorize online stores, visit the website of an online store and product where TailorGuide is enabled and follow the instructions."
+msgstr "Para autorizar tiendas en web, visite el sitio web de una tienda y un producto donde esté habilitado TailorGuide y siga las instrucciones."
+
+#: 
+msgid "Could not register. Please check that your email address, password and other details are correct."
+msgstr "No se pudo registrar. Verifique que su dirección de correo electrónico, contraseña y otros detalles sean correctos."
+
+#: 
+msgid "Details missing"
+msgstr "Faltan detalles"
+
+#: 
+msgid "OK"
+msgstr "OK"
+
+#: 
+msgid "Please enter your name."
+msgstr "Por favor, escriba su nombre."
+
+#: 
+msgid "This email address is already in use. Please login instead of registering a new account."
+msgstr "Esta dirección de correo electrónico ya está en uso. Por favor inicie sesión en lugar de registrar una nueva cuenta."
+
+#: 
+msgid "Wrong email address. Please try again."
+msgstr "Dirección de correo errónea. Inténtalo de nuevo."
+
+#: 
+msgid "Your password must contain at least 6 characters."
+msgstr "Su contraseña debe contener al menos 6 caracteres."
+
+#: 
+msgid "There are a few different ways to link your TailorGuide profile to a store:"
+msgstr "Hay algunas formas diferentes de vincular su perfil de TailorGuide a una tienda:"
+
+#: 
+msgid "Action required"
+msgstr "Acción requerida"
+
+#: 
+msgid "Connection problem"
+msgstr "Problema de conexión"
+
+#: 
+msgid "Existing TailorGuide account"
+msgstr "Cuenta existente de TailorGuide"
+
+#: 
+msgid "Google account already linked with this email, please sign in using Google login"
+msgstr "La cuenta de Google ya vinculada con este correo electrónico, inicie sesión con el inicio de sesión de Google"
+
+#: 
+msgid "Link account"
+msgstr "Vincular cuenta"
+
+#: 
+msgid "Link with an existing TailorGuide account or create a new one."
+msgstr "Vincular con una cuenta existente de TailorGuide o cree una nueva."
+
+#: 
+msgid "Please wait for a few minutes and try again."
+msgstr "Espere unos minutos y vuelva a intentarlo."
+
+#: 
+msgid "Register new"
+msgstr "Registrar nuevo"
+
+#: 
+msgid "The connection could not be established, please try again later."
+msgstr "No se pudo establecer la conexión. Inténtalo de nuevo más tarde."
+
+#: 
+msgid "Too many attempts"
+msgstr "Demasiados intentos"
+
+#: 
+msgid "ARE YOU SURE? If you want to continue, please enter your password."
+msgstr "¿ESTÁS SEGURO? Si desea continuar, ingrese su contraseña."
+
+#: 
+msgid "Error getting products data"
+msgstr "Error al obtener datos de productos"
+
+#: 
+msgid "If you do not have a password set, please use forgot password tool before deleting your account."
+msgstr "Si no tiene una contraseña establecida, utilice la herramienta de la contraseña olvidado antes de eliminar su cuenta."
+
+#: 
+msgid "Loading products..."
+msgstr "Cargando productos..."
+
+#: 
+msgid "Products"
+msgstr "Productos"
+
+#: 
+msgid "Please wait for a few minutes before trying again"
+msgstr "Espere unos minutos antes de volver a intentarlo"
+
+#: 
+msgid "Loading stores..."
+msgstr "Cargando tiendas..."
+
+#: 
+msgid "Supported Stores"
+msgstr "Tiendas compatibles"
+
+#: 
+msgid "After measuring, check that the measurement points of your feet and head are aligned correctly."
+msgstr "Después de medir, verifique que los puntos de medición de sus pies y cabeza estén alineados correctamente."
+
+#: 
+msgid "After measuring?"
+msgstr "Después de medir?"
+
+#: 
+msgid "The best results are obtained with: spacious room (also space behind you), good lighting, solid color background, high color contrast between you and the background. Please notice, reflections from the floor or wall may affect your measurements."
+msgstr "Los mejores resultados se obtienen con: habitación espaciosa (también espacio detrás de usted), buena iluminación, fondo de color sólido, contraste de alto color entre usted y el fondo. Tenga en cuenta que los reflejos del suelo o la pared pueden afectar sus mediciones."
+
+#: 
+msgid "Turn **right** and lift your **left** arm straight forward.  \n"
+"Keep your right hand down on your side.  \n"
+"Keep your lifted hand in fist."
+msgstr "Gire **a la derecha** y levante tu brazo **izquierdo** hacia adelante.\n"
+"Mantenga tu mano derecha hacia abajo y de su lado.\n"
+"Mantenga tu mano levantada en puño."
+
+#: 
+msgid "Campaign"
+msgstr "Campaña"
+
+#: 
+msgid "Logging in..."
+msgstr "Iniciando sesión..."
+
+#: 
+msgid "Stores"
+msgstr ""
+
+#: 
+msgid "Update available"
+msgstr ""
+
+#: 
+msgid "Update"
+msgstr ""
+
+#: 
+msgid "Later"
+msgstr ""
+
+#: 
+msgid "Your version of TailorGuide is outdated and may soon stop working. Please update."
+msgstr ""
+
+#: 
+msgid "All pictures are deleted when the measurement is done."
+msgstr ""
+
+#: 
+msgid "Are you sure?"
+msgstr ""
+
+#: 
+msgid "CANCEL"
+msgstr ""
+
+#: 
+msgid "Deleting measurements..."
+msgstr ""
+
+#: 
+msgid "If you are sure, press DELETE"
+msgstr ""
+
+#: 
+msgid "Measurement deleted"
+msgstr ""
+
+#: 
+msgid "Pictures taken during the measurement  process will not be saved on the device, nor sent to any servers."
+msgstr ""
+
+#: 
+msgid "Your Privacy"
+msgstr ""
+
+#: 
+msgid "Protecting your privacy has always been one of the foundations for TailorGuide."
+msgstr ""
+
+#: 
+msgid "We not only comply with privacy laws, but also go beyond this by making privacy a key requirement in our engineering."
+msgstr ""
+
+#: 
+msgid "You can read more about privacy on "
+msgstr ""
+
+#: 
+msgid "You have the control."
+msgstr ""
+
+#: 
+msgid "our website"
+msgstr ""
+
+#: 
+msgid "Our size guide has been built in a way, that you don't need to share your measurements directly with online stores to get size suggestions. Unless you explicitly request to do so."
+msgstr ""
+

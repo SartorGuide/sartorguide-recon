@@ -1,0 +1,898 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: app-html\n"
+"Language: fi\n"
+
+#: 
+msgid "Account scheduled for removal"
+msgstr "Tili on ajastettu poistettavaksi"
+
+#: 
+msgid "Added"
+msgstr "Lisätty"
+
+#: 
+msgid "After posing?"
+msgstr "Poseerauksen jälkeen?"
+
+#: 
+msgid "All done!"
+msgstr "Valmista tuli!"
+
+#: 
+msgid "Allow %s on %s?"
+msgstr "Sallitaanko %s laitteella %s?"
+
+#: 
+msgid "Allowed stores"
+msgstr "Sallitut verkkokaupat"
+
+#: 
+msgid "An indicator will show the correct angle."
+msgstr "Indikaattori osoittaa oikean kulman."
+
+#: 
+msgid "Anonymous feedback"
+msgstr "Anonyymi palaute"
+
+#: 
+msgid "Authorizations"
+msgstr "Valtuutukset"
+
+#: 
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: 
+msgid "Change"
+msgstr "Muuta"
+
+#: 
+msgid "Change password"
+msgstr "Vaihda salasana"
+
+#: 
+msgid "Continue"
+msgstr "Jatka"
+
+#: 
+msgid "Delete everything"
+msgstr "Poista kaikki"
+
+#: 
+msgid "Delete your profile and data"
+msgstr "Poistaa profiilisi ja tiedot"
+
+#: 
+msgid "Dismiss"
+msgstr "Sulje"
+
+#: 
+msgid "Do you allow this online store to access your TailorGuide profile? Only accept if you made this request yourself."
+msgstr "Myönnetäänkö verkkokaupalle pääsy TailorGuide-profiiliisi? Hyväksy vain, jos olet tehnyt tämän pyynnön itse."
+
+#: 
+msgid "Email"
+msgstr "Sähköposti"
+
+#: 
+msgid "Error getting user data"
+msgstr "Virhe hakiessa käyttäjätietoja"
+
+#: 
+msgid "Existing account"
+msgstr "Olemassaoleva tili"
+
+#: 
+msgid "Failed to change password"
+msgstr "Salasanan vaihto epäonnistui"
+
+#: 
+msgid "Failed to delete account"
+msgstr "Tilin poisto epäonnistui"
+
+#: 
+msgid "Feedback"
+msgstr "Palaute"
+
+#: 
+msgid "Female"
+msgstr "Nainen"
+
+#: 
+msgid "First name"
+msgstr "Etunimi"
+
+#: 
+msgid "Firstname"
+msgstr "Etunimi"
+
+#: 
+msgid "Forgot password?"
+msgstr "Unohtuiko salasana?"
+
+#: 
+msgid "History"
+msgstr "Historia"
+
+#: 
+msgid "How to pose?"
+msgstr "Miten poseerata?"
+
+#: 
+msgid "Instructions"
+msgstr "Ohjeet"
+
+#: 
+msgid "Instructions."
+msgstr "Ohjeet."
+
+#: 
+msgid "Just a moment, please..."
+msgstr "Pieni hetki..."
+
+#: 
+msgid "Last name"
+msgstr "Sukunimi"
+
+#: 
+msgid "Last updated"
+msgstr "Viimeksi päivitetty"
+
+#: 
+msgid "Lastname"
+msgstr "Sukunimi"
+
+#: 
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: 
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: 
+msgid "Make sure the password you entered was correct"
+msgstr "Varmista, että salasana on oikein"
+
+#: 
+msgid "Male"
+msgstr "Mies"
+
+#: 
+msgid "Menu"
+msgstr "Valikko"
+
+#: 
+msgid "New Password"
+msgstr "Uusi salasana"
+
+#: 
+msgid "New user"
+msgstr "Uusi käyttäjä"
+
+#: 
+msgid "Old Password"
+msgstr "Vanha salasana"
+
+#: 
+msgid "Password"
+msgstr "Salasana"
+
+#: 
+msgid "Password Again"
+msgstr "Salasana uudestaan"
+
+#: 
+msgid "Password and repeat password must be the same"
+msgstr "Salasanan ja varmistuksen on oltava samat"
+
+#: 
+msgid "Password changed"
+msgstr "Salasana muutettu"
+
+#: 
+msgid "Passwords don't match"
+msgstr "Salasanat eivät täsmää"
+
+#: 
+msgid "Pending requests to access your profile data"
+msgstr "Odotuksessa olevat pyyynnöt profiilidataasi"
+
+#: 
+msgid "Place your device on the floor leaning against a wall"
+msgstr "Aseta laite lattialle nojaamaan seinää vasten."
+
+#: 
+msgid "Please contact support."
+msgstr "Ota yhteyttä tukeen."
+
+#: 
+msgid "Please dress in close-fitting clothing or underwear and tie your hair to the back if you have long hair."
+msgstr "Pukeudu ihonmyötäisiin vaatteisiin tai alusvaatteisiin.\n"
+"Jos sinulla on pitkät hiukset, sido ne kiinni taakse."
+
+#: 
+msgid "Please use a strong password"
+msgstr "Ole hyvä ja käytä vahvaa salasanaa"
+
+#: 
+msgid "Please wait..."
+msgstr "Ole hyvä ja odota..."
+
+#: 
+msgid "Position yourself into the center of the screen inside the person template feet shoulder width apart. Lift your hands all the way up and lower them to the pictured position. This will help setting your undershirt correctly on the armpits."
+msgstr "Asetu hahmon mukaisesti keskelle ruutua. Pidä jalat hartioiden leveydellä. Nosta kädet kokonaan ylös ja laske sitten kuvan osoittamalle kohdalle. Tämä auttaa paidan asettumista kainaloista."
+
+#: 
+msgid "Preferred Clothing"
+msgstr "Ensisijainen vaatetyyppi"
+
+#: 
+msgid "Profile and Settings"
+msgstr "Profiili ja asetukset"
+
+#: 
+msgid "Repeat New Password"
+msgstr "Toista uusi salasana"
+
+#: 
+msgid "Request a password reset link to your email address."
+msgstr "Voit pyytää salasanan nollauksen sähköpostiosoitteeseesi."
+
+#: 
+msgid "Sending email..."
+msgstr "Lähetetään sähköpostia..."
+
+#: 
+msgid "Sending response..."
+msgstr "Lähetetään vastausta..."
+
+#: 
+msgid "Skip"
+msgstr "Ohita"
+
+#: 
+msgid "Start measuring"
+msgstr "Aloita mittaus"
+
+#: 
+msgid "Start using"
+msgstr "Aloita käyttö"
+
+#: 
+msgid "Swipe left for instructions."
+msgstr "Pyyhkäise vasemmalle saadaksesi ohjeita."
+
+#: 
+msgid "TailorGuide is an app that lets you measure yourself with the help of your mobile devices front camera."
+msgstr "TailorGuide on sovellus, jonka avulla voit mitata itsesi käyttäen mobiililaitteen etukameraa."
+
+#: 
+msgid "The next step is getting you measured."
+msgstr "Seuraavaksi mittaamme sinut."
+
+#: 
+msgid "This profile page will show your current measurements and measurement history."
+msgstr "Tämä profiilisivu näyttää nykyiset mittasi, sekä mittahistorian."
+
+#: 
+msgid "Undo"
+msgstr "Peru"
+
+#: 
+msgid "Welcome to TailorGuide"
+msgstr "Tervetuloa TailorGuide-sovellukseen"
+
+#: 
+msgid "What to wear?"
+msgstr "Mitä puen päälleni?"
+
+#: 
+msgid "Where to measure?"
+msgstr "Missä ottaa mitat?"
+
+#: 
+msgid "With a few words, let us know how we are doing"
+msgstr "Kerro meille muutamalla sanalla, miten olemme onnistuneet"
+
+#: 
+msgid "You can always measure yourself again by pressing the camera button on the top right corner."
+msgstr "Voit aina mitata itsesi uudelleen painamalla kamerapainiketta alhaalla."
+
+#: 
+msgid "You can now login with your new password"
+msgstr "Voit nyt kirjautua uudella salasanalla"
+
+#: 
+msgid "You haven't authorized any online stores to access your profile yet."
+msgstr "Et ole vielä antanut yhdellekään verkkokaupalle pääsyä profiiliisi."
+
+#: 
+msgid "You should check our instructions before getting measured."
+msgstr "Suosittelemme, että luette ohjeemme ennen mitoituksen aloittamista."
+
+#: 
+msgid "Your account will now be deleted in the next automated cleanup. This may take from a few hours to a few days."
+msgstr "Tilisi tullaan nyt poistamaan seuraavan automaattisen siivouksen yhteydessä. Tämä voi kestää muutamasta tunnista muutamaan päivään."
+
+#: 
+msgid "authorized"
+msgstr "valtuutettu"
+
+#: 
+msgid "forgot password?"
+msgstr "unohtuiko salasana?"
+
+#: 
+msgid "name@example.com"
+msgstr "nimi@domain.fi"
+
+#: 
+msgid "waiting"
+msgstr "odottaa"
+
+#: 
+msgid "Authorized Stores"
+msgstr "Valtuutetut verkkokaupat"
+
+#: 
+msgid "Your Profile"
+msgstr "Profiilisi"
+
+#: 
+msgid "DELETE"
+msgstr "POISTA"
+
+#: 
+msgid "Submit"
+msgstr "Lähetä"
+
+#: 
+msgid "or"
+msgstr "tai"
+
+#: 
+msgid "**Leave the screen completely until you hear the shutter click sound.** Try not to cast any shadows on the measuring area when you are outside the screen."
+msgstr "**Poistu kameran kuvasta kokonaan kunnes kuulet kameran laukaisimen.** Pyri välttämään aiheuttamasta ylimääräisiä varjoja kuvausalueelle, kun poistut kuvasta."
+
+#: 
+msgid "Version:"
+msgstr "Versio:"
+
+#: 
+msgid "Login to your account to continue"
+msgstr "Kirjaudu tilillesi jatkaaksesi"
+
+#: 
+msgid "You can also swipe left for information"
+msgstr "Pyyhkäisemällä vasemmalle saat tietoja"
+
+#: 
+msgid "Find your perfect clothes"
+msgstr "Löydä täydelliset vaatteesi"
+
+#: 
+msgid "Full privacy"
+msgstr "Täysi yksityisyys"
+
+#: 
+msgid "Photos don't leave your device"
+msgstr "Kuvat eivät lähde laitteeltasi"
+
+#: 
+msgid "Smarter sizes"
+msgstr "Smarter sizes"
+
+#: 
+msgid "Sophisticated computer vision to measure yourself"
+msgstr "Kehittynyt konenäköteknologia itsesi mittaamiseen"
+
+#: 
+msgid "Delete"
+msgstr "Poista"
+
+#: 
+msgid "Error sending measurements"
+msgstr "Virhe mittojen lähetyksessä"
+
+#: 
+msgid "Retry"
+msgstr "Yritä uudelleen"
+
+#: 
+msgid "Saving measurements..."
+msgstr "Tallennetaan mittoja..."
+
+#: 
+msgid "There might be a problem with the network connection. Do you want to try again?"
+msgstr "Verkkoyhteydessä on mahdollisesti ongelma. Haluatko yrittää uudelleen?"
+
+#: 
+msgid "Close"
+msgstr "Sulje"
+
+#: 
+msgid "Could not change authorization status. This request might have already been deleted."
+msgstr "Valtuutuksen tilaa ei voitu muuttaa. Pyyntö on mahdollisesti jo poistettu."
+
+#: 
+msgid "Could not change authorization status. Unknown error."
+msgstr "Valtuutuksen tilaa ei voitu muuttaa. Tuntematon virhe."
+
+#: 
+msgid "Could not send measurements. Please try again."
+msgstr "Mittatietojen lähetys epäonnistui. Ole hyvä ja yritä uudelleen."
+
+#: 
+msgid "Could not send measurements. Unknown error. Please try again."
+msgstr "Mittatietojen lähetys epäonnistui. Tuntematon virhe. Ole hyvä ja yritä uudelleen."
+
+#: 
+msgid "Error"
+msgstr "Virhe"
+
+#: 
+msgid "Error logging in"
+msgstr "Virhe kirjauduttaessa"
+
+#: 
+msgid "Error registering"
+msgstr "Virhe rekisteröitäessä"
+
+#: 
+msgid "Feedback sent."
+msgstr "Palaute lähetetty."
+
+#: 
+msgid "Internal server error. Please try again later."
+msgstr "Sisäinen palvelinvirhe. Ole hyvä ja yritä myöhemmin uudelleen."
+
+#: 
+msgid "Password and password verification must be the same."
+msgstr "Salasanan ja salasanan vahvistuksen tulee olla samat."
+
+#: 
+msgid "Password error"
+msgstr "Salasanavirhe"
+
+#: 
+msgid "Thank you!"
+msgstr "Kiitos!"
+
+#: 
+msgid "Could not log in. Wrongly formatted email or password."
+msgstr "Kirjautuminen ei onnistunut. Virheellisen muotoinen sähköpostiosoite tai salasana."
+
+#: 
+msgid "Could not login. Unknown error."
+msgstr "Kirjautuminen ei onnistunut. Tuntematon virhe."
+
+#: 
+msgid "Could not register. Unknown error."
+msgstr "Rekisteröinti ei onnistunut. Tuntematon virhe."
+
+#: 
+msgid "Could not send password reset email. Unknown error."
+msgstr "Salasanan palautuksen sähköpostin lähetys epäonnistui. Tuntematon virhe."
+
+#: 
+msgid "We could not find an account with the email address. Please check the email address or register a new account if you don't have one."
+msgstr "Emme löytäneet tiliä tälle sähköpostiosoitteelle. Ole hyvä ja tarkista osoite tai rekisteröi uusi tili, mikäli sitä ei vielä ole."
+
+#: 
+msgid "Wrong password. Please check your email address and password and try again."
+msgstr "Väärä salasana. Ole hyvä ja tarkista sähköpostiosoite ja salasana."
+
+#: 
+msgid "Doe"
+msgstr "Meikäläinen"
+
+#: 
+msgid "Email sent, check your inbox"
+msgstr "Sähköposti lähetetty, tarkista sähköpostilaatikkosi"
+
+#: 
+msgid "John"
+msgstr "Matti"
+
+#: 
+msgid "Success"
+msgstr "Onnistui"
+
+#: 
+msgid "Unknown error."
+msgstr "Tuntematon virhe."
+
+#: 
+msgid "By continuing you are accepting our terms of service"
+msgstr "Jatkamalla hyväksyt palvelun käyttöehdot"
+
+#: 
+msgid "Men's clothing"
+msgstr "Miesten vaatteet"
+
+#: 
+msgid "Read"
+msgstr "Lue"
+
+#: 
+msgid "Terms of Service"
+msgstr "Käyttöehdot"
+
+#: 
+msgid "Women's clothing"
+msgstr "Naisten vaatteet"
+
+#: 
+msgid "Back"
+msgstr "Takaisin"
+
+#: 
+msgid "Authorize a Store"
+msgstr "Valtuuta kauppa"
+
+#: 
+msgid "Authorized stores lists all the different device and store combinations you have allowed to access your profile for size matching."
+msgstr "Valtuutetut kaupat -sivulla on listattu kaikki erilaiset laite- ja kauppayhdistelmät, joiden olet sallinut käyttää profiiliasi kokovertailuja varten."
+
+#: 
+msgid "Login by scanning a QR code shown on the online store."
+msgstr "Kirjaudu sisään skannaamalla verkkokaupassa näytettävä QR-koodi."
+
+#: 
+msgid "Login via a push notification by entering your email address on the online store. Or using your password."
+msgstr "Kirjaudu sisään verkkokaupassa push-ilmoituksella syöttämällä sähköpostiosoitteesi tai käyttämällä salasanaa."
+
+#: 
+msgid "Scan"
+msgstr "Skannaa"
+
+#: 
+msgid "Do you want to store your measurements?"
+msgstr "Haluatko tallentaa mittatietosi?"
+
+#: 
+msgid "Register"
+msgstr "Rekisteröidy"
+
+#: 
+msgid "Test without an account"
+msgstr "Testaa ilman tiliä"
+
+#: 
+msgid "You finished taking your measurements without an account. If you want to store the measurements register an account now. Alternatively you can delete these measurements."
+msgstr "Suoritit mittauksen ilman tiliä. Jos haluat tallentaa mittasi, rekisteröi tili nyt. Vaihtoehtoisesti voit poistaa äskeiset mittatiedot."
+
+#: 
+msgid "Facebook"
+msgstr "Facebook"
+
+#: 
+msgid "Google"
+msgstr "Google"
+
+#: 
+msgid "Latest"
+msgstr "Uusin"
+
+#: 
+msgid "Loading profile..."
+msgstr "Ladataan profiilia..."
+
+#: 
+msgid "Login error"
+msgstr "Kirjautumisvirhe"
+
+#: 
+msgid "Measurement name"
+msgstr "Mittauksen nimi"
+
+#: 
+msgid "Name restored"
+msgstr "Nimi palautettu"
+
+#: 
+msgid "Preferred clothing"
+msgstr "Ensisijainen vaatetyyppi"
+
+#: 
+msgid "There was an error while logging in"
+msgstr "Kirjauduttaessa sisään tapahtui virhe"
+
+#: 
+msgid "Value"
+msgstr "Arvo"
+
+#: 
+msgid "Wrong password."
+msgstr "Väärä salasana."
+
+#: 
+msgid "value restored"
+msgstr "arvo palautettu"
+
+#: 
+msgid "Loading measurements..."
+msgstr "Ladataan mittoja..."
+
+#: 
+msgid "Maximum value is 300cm"
+msgstr "Maksimiarvo on 300cm"
+
+#: 
+msgid "My Measurements"
+msgstr "Mittani"
+
+#: 
+msgid "Profile restored"
+msgstr "Profiili palautettu"
+
+#: 
+msgid "Saving new name ..."
+msgstr "Tallennetaan nimeä ..."
+
+#: 
+msgid "Saving new value for "
+msgstr "Tallennetaan "
+
+#: 
+msgid "Saving profile ..."
+msgstr "Tallennetaan profiilia ..."
+
+#: 
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: 
+msgid "Invalid value"
+msgstr "Virheellinen arvo"
+
+#: 
+msgid "Please, only use numbers"
+msgstr "Ole hyvä ja käytä vain numeroita"
+
+#: 
+msgid "Anonymous"
+msgstr "Anonyymi"
+
+#: 
+msgid "Loading options..."
+msgstr "Ladataan vaihtoehtoja ..."
+
+#: 
+msgid "Please try again later"
+msgstr "Ole hyvä ja yritä myöhemmin uudelleen"
+
+#: 
+msgid "Select anonymous if you don't want to be identified."
+msgstr "Valitse anonyymi, mikäli et halua tunnistautua"
+
+#: 
+msgid "Send as "
+msgstr "Lähetä käyttäjänä "
+
+#: 
+msgid "Your feedback "
+msgstr "Palautteesi "
+
+#: 
+msgid "Logging out ..."
+msgstr "Kirjaudutaan ulos ..."
+
+#: 
+msgid "To authorize online stores, visit the website of an online store and product where TailorGuide is enabled and follow the instructions."
+msgstr "Jos haluat sallia verkkokauppojen pääsyn mittatietoihisi, käy verkkosivustolla ja tuotteessa, jossa TailorGuide on käytössä ja noudata ohjeita."
+
+#: 
+msgid "Could not register. Please check that your email address, password and other details are correct."
+msgstr "Rekisteröinti ei onnistunut. Ole hyvä ja tarkista sähköpostiosoite, salasana ja muut tiedot."
+
+#: 
+msgid "Details missing"
+msgstr "Puuttuvia tietoja"
+
+#: 
+msgid "OK"
+msgstr "OK"
+
+#: 
+msgid "Please enter your name."
+msgstr "Ole hyvä ja syötä nimesi."
+
+#: 
+msgid "This email address is already in use. Please login instead of registering a new account."
+msgstr "Tämä sähköpostiosoite on jo käytössä. Ole hyvä ja kirjaudu sisään uuden tilin luonnin sijaan."
+
+#: 
+msgid "Wrong email address. Please try again."
+msgstr "Virheellinen sähköpostiosoite. Ole hyvä ja yritä uudelleen."
+
+#: 
+msgid "Your password must contain at least 6 characters."
+msgstr "Salasanan tulee sisältää vähintään 6 merkkiä."
+
+#: 
+msgid "There are a few different ways to link your TailorGuide profile to a store:"
+msgstr "Voit linkittää profiilisi verkkokauppaan näillä tavoilla:"
+
+#: 
+msgid "Action required"
+msgstr "Valitse"
+
+#: 
+msgid "Connection problem"
+msgstr "Yhteysongelma"
+
+#: 
+msgid "Existing TailorGuide account"
+msgstr "Olemassaoleva TailorGuide-tili"
+
+#: 
+msgid "Google account already linked with this email, please sign in using Google login"
+msgstr "Google-tili on jo linkitetty tähän sähköpostiin, kirjaudu sisään Google-kirjautumisen kautta"
+
+#: 
+msgid "Link account"
+msgstr "Linkitä tili"
+
+#: 
+msgid "Link with an existing TailorGuide account or create a new one."
+msgstr "Linkitä olemassaolevan TailorGuide-tilin kanssa tai luo uusi TailorGuide-tili."
+
+#: 
+msgid "Please wait for a few minutes and try again."
+msgstr "Odota muutama minuutti ja yritä uudelleen."
+
+#: 
+msgid "Register new"
+msgstr "Rekisteröi uusi"
+
+#: 
+msgid "The connection could not be established, please try again later."
+msgstr "Yhteyttä ei voitu muodostaa, yritä myöhemmin uudelleen."
+
+#: 
+msgid "Too many attempts"
+msgstr "Liian monta yritystä"
+
+#: 
+msgid "ARE YOU SURE? If you want to continue, please enter your password."
+msgstr "OLETKO VARMA? Jos haluat jatkaa, anna salasanasi"
+
+#: 
+msgid "Error getting products data"
+msgstr "Virhe haettaessa tuotteita"
+
+#: 
+msgid "If you do not have a password set, please use forgot password tool before deleting your account."
+msgstr "Mikäli sinnulla ei ole salasanaa asetettu, käytä salasanan palautusta ennen tilin poistamista"
+
+#: 
+msgid "Loading products..."
+msgstr "Ladataan tuotteita..."
+
+#: 
+msgid "Products"
+msgstr "Tuotteet"
+
+#: 
+msgid "Please wait for a few minutes before trying again"
+msgstr "Odota muutama minuutti ennen kuin yrität uudelleen"
+
+#: 
+msgid "Loading stores..."
+msgstr "Ladataan kauppoja.."
+
+#: 
+msgid "Supported Stores"
+msgstr "Tuetut verkkokaupat"
+
+#: 
+msgid "After measuring, check that the measurement points of your feet and head are aligned correctly."
+msgstr "Tarkista mitoituksen jälkeen, että mittapisteet ovat oikeassa kohdassa sekä pään että jalkojesi kohdalla."
+
+#: 
+msgid "After measuring?"
+msgstr "Mittauksen jälkeen?"
+
+#: 
+msgid "The best results are obtained with: spacious room (also space behind you), good lighting, solid color background, high color contrast between you and the background. Please notice, reflections from the floor or wall may affect your measurements."
+msgstr "Parhaan tuloksen saat: tilavassa huoneessa (myös takana tilaa), hyvässä valaistuksessa, kuvaamalla tasaista taustaa vasten ja pukeutumalla taustasta erottuvasti. Huomioi, että mahdolliset heijastukset lattian tai muun kautta voivat vääristää mittaustuloksia."
+
+#: 
+msgid "Turn **right** and lift your **left** arm straight forward.  \n"
+"Keep your right hand down on your side.  \n"
+"Keep your lifted hand in fist."
+msgstr "Käänny **oikealle** ja nosta **vasen** käsi suoraan eteenpäin.  \n"
+"Pidä oikea käsi sivullasi.  \n"
+"Pidä nostettu käsi nyrkissä."
+
+#: 
+msgid "Campaign"
+msgstr "Kampanja"
+
+#: 
+msgid "Logging in..."
+msgstr "Kirjaudutaan sisään..."
+
+#: 
+msgid "Stores"
+msgstr "Verkkokaupat"
+
+#: 
+msgid "Update available"
+msgstr "Päivitys saatavilla"
+
+#: 
+msgid "Update"
+msgstr "Päivitä"
+
+#: 
+msgid "Later"
+msgstr "Myöhemmin"
+
+#: 
+msgid "Your version of TailorGuide is outdated and may soon stop working. Please update."
+msgstr "TailorGuiden versio on vanhentunut ja voi lakata toimimasta. Ole hyvä ja päivitä."
+
+#: 
+msgid "All pictures are deleted when the measurement is done."
+msgstr "Kaikki kuvat tuhotaan mittauksen päätteeksi."
+
+#: 
+msgid "Are you sure?"
+msgstr "Oletko varma?"
+
+#: 
+msgid "CANCEL"
+msgstr "Peruuta"
+
+#: 
+msgid "Deleting measurements..."
+msgstr "Poistetaan mittauksia..."
+
+#: 
+msgid "If you are sure, press DELETE"
+msgstr "Jos olet varma, paina POISTA"
+
+#: 
+msgid "Measurement deleted"
+msgstr "Mittaukset poistettu"
+
+#: 
+msgid "Pictures taken during the measurement  process will not be saved on the device, nor sent to any servers."
+msgstr "Mittauksen aikana otettuja kuvia ei tallenneta laitteelle eikä lähetetä eteenpäin."
+
+#: 
+msgid "Your Privacy"
+msgstr "Yksityisyytesi"
+
+#: 
+msgid "Protecting your privacy has always been one of the foundations for TailorGuide."
+msgstr "Yksityisyyden suojaaminen on aina ollut yksi kulmakivistä TailorGuidella."
+
+#: 
+msgid "We not only comply with privacy laws, but also go beyond this by making privacy a key requirement in our engineering."
+msgstr "Emme ainoastaan noudata yksityisyydensuojaa koskevia lakeja. Menemme vieläkin pidemmälle, ja olemme tehneet yksityisyydestä tärkeän osan kehitystyötämme."
+
+#: 
+msgid "You can read more about privacy on "
+msgstr "Voit lukea lisää yksityisyydensuojasta "
+
+#: 
+msgid "You have the control."
+msgstr "Hallinta on sinulla."
+
+#: 
+msgid "our website"
+msgstr "nettisivuiltamme"
+
+#: 
+msgid "Our size guide has been built in a way, that you don't need to share your measurements directly with online stores to get size suggestions. Unless you explicitly request to do so."
+msgstr "Koko-oppaamme on rakennettu siten, että sinun ei tarvitse jakaa mittatietojasi suoraan verkkokauppojen kanssa saadaksesi kokosuosituksia. Ellet pyydä sitä erikseen."
+

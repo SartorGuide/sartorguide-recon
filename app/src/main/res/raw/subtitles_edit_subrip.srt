@@ -1,0 +1,23 @@
+1
+00:00:01,000 --> 00:00:13,000
+Check that the head bar is found above the forehead and the feet bars at the tip of the feet
+
+2
+00:00:13,000 --> 00:00:14,000
+#CLEAR#
+
+3
+00:00:15,000 --> 00:00:21,000
+Measuring points can be moved and edited by double tapping them
+
+4
+00:00:21,000 --> 00:00:21,500
+#CLEAR#
+
+5
+00:00:22,000 --> 00:00:36,000
+The correct position for the point is shown on the info pic
+
+6
+00:00:36,000 --> 00:00:36,500
+#CLEAR#
