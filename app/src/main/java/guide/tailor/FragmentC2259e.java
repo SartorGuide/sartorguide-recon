@@ -1709,7 +1709,9 @@ public class FragmentC2259e extends Fragment {
                                                 }
                                             };
                                         }
-                                        a0.post((Runnable) a1);
+                                        if (a0 != null) {
+                                            a0.post((Runnable) a1);
+                                        }
                                         FragmentC2259e.this.f9686x = -40;
                                     }
                                 } else {
@@ -1722,7 +1724,9 @@ public class FragmentC2259e extends Fragment {
                                     };
                                     a5 = a27;
                                 }
-                                a4.post((Runnable) a5);
+                                if (a4 != null) {
+                                    a4.post((Runnable) a5);
+                                }
                             } else if (FragmentC2259e.this.f9686x == 40) {
                                 FragmentC2259e.this.m10851t();
                             }
@@ -1747,7 +1751,9 @@ public class FragmentC2259e extends Fragment {
                             }
                         };
                     }
-                    a2.post((Runnable) a3);
+                    if (a2 != null) {
+                        a2.post((Runnable) a3);
+                    }
                     FragmentC2259e.f9537h = false;
                     FragmentC2259e.f9539j = false;
                     FragmentC2259e.this.f9555G = 0;
@@ -1770,7 +1776,9 @@ public class FragmentC2259e extends Fragment {
                                 }
                             };
                         }
-                        a23.post((Runnable) a24);
+                        if (a23 != null) {
+                            a23.post((Runnable) a24);
+                        }
                     }
                     FragmentC2259e.this.f9686x = 0;
                 }
