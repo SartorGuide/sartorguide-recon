@@ -748,7 +748,10 @@ public class WebStart extends AppCompatActivity {
     public static boolean f9379D;
     public static boolean f9380E;
     public static boolean f9381F;
-    public static boolean f9405z;
+    /** Sound/voice-guidance enable. Original APK set this from the JS bridge
+     *  (sound preference). That wiring was lost in reconstruction, so default
+     *  to true: voice instructions play unless the user mutes via mute_btn. */
+    public static boolean f9405z = true;
 
     /** Gender selection: compared with .equals("male"). */
     public static String f9382G = "";
