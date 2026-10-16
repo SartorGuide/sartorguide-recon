@@ -3209,10 +3209,22 @@ public class FragmentC2259e extends Fragment {
         this.f9571aC = f9517aB;
         f9539j = f9517aB;
         this.f9676cq = 1;
-        if (!f9528b || this.f9623bM == null) {
+        if (f9528b) {
+            // Legacy Camera1 path
+            if (this.f9623bM == null) {
+                f9539j = false;
+                return;
+            }
+            m10831j();
             return;
         }
-        m10831j();
+        // Camera2 path: issue a still capture. The ImageReader callback clears f9539j.
+        try {
+            m10863z();
+        } catch (Exception e) {
+            e.printStackTrace();
+            f9539j = false;
+        }
     }
 
     /* JADX INFO: Access modifiers changed from: private */
