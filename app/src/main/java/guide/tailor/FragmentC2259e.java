@@ -2379,6 +2379,7 @@ public class FragmentC2259e extends Fragment {
                     f9547s = this.f9683u;
                     f9548t = this.f9683u;
                     this.f9667ch = s0;
+                    m10794b(f9547s.getWidth(), f9547s.getHeight());
                     return;
                 }
             }
