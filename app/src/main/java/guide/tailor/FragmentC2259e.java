@@ -3174,7 +3174,7 @@ public class FragmentC2259e extends Fragment {
             a3[1] = 60.0f;
         }
         int[] a4 = {(int) (a3[1] * 10.0f), i1};
-        return a4 = null;
+        return a4;
     }
 
     /* JADX INFO: Access modifiers changed from: private */
