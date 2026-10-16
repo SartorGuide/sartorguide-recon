@@ -53,6 +53,8 @@ dependencies {
     implementation 'com.airbnb.android:lottie:3.4.4'
     // Material design (CoordinatorLayout, TabLayout, Snackbar, FAB)
     implementation 'com.google.android.material:material:1.12.0'
+    // ConstraintLayout used by activity_angle_calibration.xml
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     // ViewPager / media-session compat used by ported classes
     implementation 'androidx.viewpager:viewpager:1.0.0'
     implementation 'androidx.media:media:1.7.0'

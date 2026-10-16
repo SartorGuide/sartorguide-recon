@@ -16,7 +16,7 @@
                 <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
             </LinearLayout>
             <View android:id="@id/shadow_point_edit" android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
-            <android.support.design.widget.CoordinatorLayout android:id="@id/coordinatorL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
         </RelativeLayout>
         <LinearLayout android:orientation="horizontal" android:id="@id/result_edit_view" android:background="@color/colorPrimaryDark" android:padding="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentEnd="true">
             <ImageButton android:id="@id/edit_point_cancel_btn" android:background="@color/colorAccent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="60.0dip" android:elevation="2.0dip" app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
