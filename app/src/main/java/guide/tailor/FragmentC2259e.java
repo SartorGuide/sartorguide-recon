@@ -57,6 +57,7 @@ import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.widget.Toolbar;
 import android.util.Range;
 import android.util.Rational;
+import android.util.Log;
 import android.util.Size;
 import android.util.SizeF;
 import android.view.LayoutInflater;
@@ -755,6 +756,9 @@ public class FragmentC2259e extends Fragment {
             To view partially-correct add '--show-bad-code' argument
         */
         public void run() {
+            if (FragmentC2259e.f9541l.length() > 8192) {
+                FragmentC2259e.f9541l = FragmentC2259e.f9541l.substring(FragmentC2259e.f9541l.length() - 4096);
+            }
             int i14;
             int i16 = 0;
             int i18 = 0;
@@ -807,6 +811,11 @@ public class FragmentC2259e extends Fragment {
                 FragmentC2259e.this.f9629bS.getHandler().post(new Runnable() { // from class: guide.tailor.FragmentC2259e.6.4
                     @Override // java.lang.Runnable
                     public void run() {
+                        android.graphics.drawable.Drawable oldBg = FragmentC2259e.this.f9629bS.getBackground();
+                        if (oldBg instanceof android.graphics.drawable.AnimationDrawable) {
+                            ((android.graphics.drawable.AnimationDrawable) oldBg).stop();
+                        }
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(0);
                         FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
                         FragmentC2259e.this.f9607av = (AnimationDrawable) FragmentC2259e.this.f9629bS.getBackground();
                         FragmentC2259e.this.m10828i();
@@ -1244,7 +1253,12 @@ public class FragmentC2259e extends Fragment {
                                 FragmentC2259e.this.f9629bS.getHandler().post(new Runnable() { // from class: guide.tailor.FragmentC2259e.6.18
                                     @Override // java.lang.Runnable
                                     public void run() {
-                                        FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
+                                        android.graphics.drawable.Drawable oldBg = FragmentC2259e.this.f9629bS.getBackground();
+                        if (oldBg instanceof android.graphics.drawable.AnimationDrawable) {
+                            ((android.graphics.drawable.AnimationDrawable) oldBg).stop();
+                        }
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(0);
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
                                         FragmentC2259e.this.f9607av = (AnimationDrawable) FragmentC2259e.this.f9629bS.getBackground();
                                         FragmentC2259e.this.m10828i();
                                         FragmentC2259e.this.f9629bS.setVisibility(8);
@@ -1671,7 +1685,12 @@ public class FragmentC2259e extends Fragment {
                                 public void run() {
                                     FragmentC2259e.this.f9629bS.setVisibility(0);
                                     FragmentC2259e.this.f9629bS.setBackground(null);
-                                    FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
+                                    android.graphics.drawable.Drawable oldBg = FragmentC2259e.this.f9629bS.getBackground();
+                        if (oldBg instanceof android.graphics.drawable.AnimationDrawable) {
+                            ((android.graphics.drawable.AnimationDrawable) oldBg).stop();
+                        }
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(0);
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
                                     FragmentC2259e.this.f9607av = (AnimationDrawable) FragmentC2259e.this.f9629bS.getBackground();
                                     FragmentC2259e.this.m10828i();
                                 }
@@ -1712,6 +1731,7 @@ public class FragmentC2259e extends Fragment {
                                         if (a0 != null) {
                                             a0.post((Runnable) a1);
                                         }
+                                        Log.e("TG", "ROLL-OUT x=" + FragmentC2259e.this.f9686x + " roll=" + FragmentC2259e.this.f9582aN + " pitch=" + FragmentC2259e.this.f9581aM + " -> reset -40");
                                         FragmentC2259e.this.f9686x = -40;
                                     }
                                 } else {
@@ -1745,7 +1765,12 @@ public class FragmentC2259e extends Fragment {
                             @Override // java.lang.Runnable
                             public void run() {
                                 FragmentC2259e.this.f9629bS.setVisibility(0);
-                                FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
+                                android.graphics.drawable.Drawable oldBg = FragmentC2259e.this.f9629bS.getBackground();
+                        if (oldBg instanceof android.graphics.drawable.AnimationDrawable) {
+                            ((android.graphics.drawable.AnimationDrawable) oldBg).stop();
+                        }
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(0);
+                        FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
                                 FragmentC2259e.this.f9607av = (AnimationDrawable) FragmentC2259e.this.f9629bS.getBackground();
                                 FragmentC2259e.this.m10828i();
                             }
@@ -1876,6 +1901,7 @@ public class FragmentC2259e extends Fragment {
             ByteBuffer buffer = this.f9789a.getPlanes()[0].getBuffer();
             byte[] bArr = new byte[buffer.remaining()];
             buffer.get(bArr);
+            buffer.clear();
             Integer.valueOf(0);
             try {
                 FileOutputStream fileOutputStream = new FileOutputStream(this.f9791c);
@@ -1892,6 +1918,7 @@ public class FragmentC2259e extends Fragment {
                     throw th;
                 }
                 fileOutputStream.close();
+                bArr = null;
                 Object[] objArr = {this.f9791c.getPath(), this.f9790b};
                 FragmentC2259e.f9527ax = new AsyncTaskC2258d();
                 FragmentC2259e.f9527ax.execute(objArr);
@@ -2220,7 +2247,10 @@ public class FragmentC2259e extends Fragment {
             this.f9672cm.close();
             this.f9672cm = null;
         }
-        this.f9672cm = ImageReader.newInstance(i, i2, 256, 2);
+        this.f9672cm = ImageReader.newInstance(i, i2, 256, 1);
+        if (f9541l.length() > 4096) {
+            f9541l = "";
+        }
         f9541l += System.currentTimeMillis() + ":Imagereader width: " + this.f9672cm.getWidth() + "Imagereader height: " + this.f9672cm.getHeight() + "\n";
         this.f9672cm.setOnImageAvailableListener(this.f9673cn, this.f9671cl);
     }
@@ -2369,7 +2399,18 @@ public class FragmentC2259e extends Fragment {
                     }
                     Size[] jpegSizes = a7.getOutputSizes(256);
                     if (jpegSizes != null && jpegSizes.length > 0) {
-                        this.f9683u = (Size) Collections.max(Arrays.asList(jpegSizes), new a());
+                        // Cap at 1920x1080 (2MP) to avoid 12MP+ decodes that OOM the 512MB heap.
+                        Size best = null;
+                        for (Size sz : jpegSizes) {
+                            if (sz.getWidth() == 1920 && sz.getHeight() == 1080) {
+                                best = sz;
+                                break;
+                            }
+                        }
+                        if (best == null) {
+                            best = (Size) Collections.min(Arrays.asList(jpegSizes), new a());
+                        }
+                        this.f9683u = best;
                     }
                     if (this.f9683u == null) {
                         this.f9683u = new Size(1920, 1080);
