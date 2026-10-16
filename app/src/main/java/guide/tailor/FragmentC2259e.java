@@ -2624,7 +2624,9 @@ public class FragmentC2259e extends Fragment {
         } catch (Exception e13) {
             a15 = e13;
         }
-        a18.printStackTrace();
+        if (a18 != null) {
+            a18.printStackTrace();
+        }
         this.f9584aP = 0;
         d3 = f9543n;
         i6 = -1;
