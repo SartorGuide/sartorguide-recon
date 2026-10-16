@@ -184,7 +184,7 @@ public class FragmentC2259e extends Fragment {
     public static long f9525at = 0;
     public static double f9526au = 0.0d;
     static AsyncTaskC2258d f9527ax = null;
-    public static boolean f9528b = f9517aB;
+    public static boolean f9528b = false; // force Camera2 path: legacy Camera1 (m10867b) renders black on modern Android
     private static Toolbar f9529bV = null;
     private static String f9530bW = "";
     private static String f9531bX = "";
@@ -3052,7 +3052,7 @@ public class FragmentC2259e extends Fragment {
                                                                                                                                                                         try {
                                                                                                                                                                             if (s1.toLowerCase().equals("samsung")) {
                                                                                                                                                                                 try {
-                                                                                                                                                                                    f9528b = f9517aB;
+                                                                                                                                                                                    f9528b = false; // Camera2: legacy Camera1 black on modern devices
                                                                                                                                                                                 } catch (NullPointerException e33) {
                                                                                                                                                                                     a62 = e33;
                                                                                                                                                                                     a3 = a62;
@@ -3642,7 +3642,7 @@ public class FragmentC2259e extends Fragment {
                                                                                                                                                 }
                                                                                                                                                 s1 = Build.MANUFACTURER;
                                                                                                                                                 if (s1.toLowerCase().equals("samsung")) {
-                                                                                                                                                    f9528b = f9517aB;
+                                                                                                                                                    f9528b = false; // Camera2: legacy Camera1 black on modern Samsung
                                                                                                                                                 }
                                                                                                                                                 if (Build.MODEL.toLowerCase().equals("nexus 6p")) {
                                                                                                                                                     f9536g = f9517aB;
@@ -4537,7 +4537,7 @@ public class FragmentC2259e extends Fragment {
                                                                                                             }
                                                                                                             s1 = Build.MANUFACTURER;
                                                                                                             if (s1.toLowerCase().equals("samsung")) {
-                                                                                                                f9528b = f9517aB;
+                                                                                                                f9528b = false; // Camera2: legacy Camera1 black on modern Samsung
                                                                                                             }
                                                                                                             if (Build.MODEL.toLowerCase().equals("nexus 6p")) {
                                                                                                                 f9536g = f9517aB;
@@ -5341,7 +5341,7 @@ public class FragmentC2259e extends Fragment {
                                                                                                             }
                                                                                                             s1 = Build.MANUFACTURER;
                                                                                                             if (s1.toLowerCase().equals("samsung")) {
-                                                                                                                f9528b = f9517aB;
+                                                                                                                f9528b = false; // Camera2: legacy Camera1 black on modern Samsung
                                                                                                             }
                                                                                                             if (Build.MODEL.toLowerCase().equals("nexus 6p")) {
                                                                                                                 f9536g = f9517aB;
