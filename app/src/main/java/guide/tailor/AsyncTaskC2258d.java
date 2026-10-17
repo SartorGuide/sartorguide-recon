@@ -20,6 +20,9 @@ class AsyncTaskC2258d extends AsyncTask<Object, Integer, Boolean> {
         FragmentC2259e.f9538i = 1;
         f9505b = new BitmapFactory.Options();
         f9505b.inScaled = false;
+        // Keep full resolution: C2262h contour analysis needs pixel-level edge detail
+        // for accurate body measurement. Memory pressure is handled by recycling the
+        // transient bitmaps in doInBackground instead.
         f9505b.inSampleSize = 1;
         f9505b.inPreferQualityOverSpeed = true;
     }
@@ -73,12 +76,26 @@ class AsyncTaskC2258d extends AsyncTask<Object, Integer, Boolean> {
                 }
                 System.gc();
                 this.f9507c = BitmapFactory.decodeFile(this.f9510f, f9505b);
+                if (this.f9507c == null) {
+                    return false;
+                }
                 int i = this.f9507c.getWidth();
                 int i0 = this.f9507c.getHeight();
                 Matrix a2 = new Matrix();
                 a2.postRotate(FragmentC2259e.f9536g ? 90 : 270);
-                this.f9508d = Bitmap.createScaledBitmap(this.f9507c, i, i0, true);
-                this.f9509e = Bitmap.createBitmap(this.f9508d, 0, 0, i, i0, a2, true);
+                // createScaledBitmap with identical dims returns the same instance; only
+                // recycle it if we actually got a new object.
+                Bitmap scaled = Bitmap.createScaledBitmap(this.f9507c, i, i0, true);
+                if (scaled != this.f9507c) {
+                    this.f9507c.recycle();
+                }
+                this.f9507c = null;
+                this.f9508d = scaled;
+                this.f9509e = Bitmap.createBitmap(scaled, 0, 0, i, i0, a2, true);
+                if (this.f9509e != scaled) {
+                    scaled.recycle();
+                }
+                this.f9508d = null;
                 if (isCancelled()) {
                     return false;
                 }
