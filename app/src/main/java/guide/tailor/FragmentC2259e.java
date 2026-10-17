@@ -1684,13 +1684,11 @@ public class FragmentC2259e extends Fragment {
                                 @Override // java.lang.Runnable
                                 public void run() {
                                     FragmentC2259e.this.f9629bS.setVisibility(0);
-                                    FragmentC2259e.this.f9629bS.setBackground(null);
                                     android.graphics.drawable.Drawable oldBg = FragmentC2259e.this.f9629bS.getBackground();
-                        if (oldBg instanceof android.graphics.drawable.AnimationDrawable) {
-                            ((android.graphics.drawable.AnimationDrawable) oldBg).stop();
-                        }
-                        FragmentC2259e.this.f9629bS.setBackgroundResource(0);
-                        FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
+                                    if (oldBg instanceof android.graphics.drawable.AnimationDrawable) {
+                                        ((android.graphics.drawable.AnimationDrawable) oldBg).stop();
+                                    }
+                                    FragmentC2259e.this.f9629bS.setBackgroundResource(R.drawable.turn_animation);
                                     FragmentC2259e.this.f9607av = (AnimationDrawable) FragmentC2259e.this.f9629bS.getBackground();
                                     FragmentC2259e.this.m10828i();
                                 }
@@ -2503,24 +2501,36 @@ public class FragmentC2259e extends Fragment {
         }
         m10803c(i0, i1);
         m10817e(i0, i1);
-        try {
-            Camera a0 = Camera.open(Integer.parseInt(this.f9667ch));
-            Camera.Parameters a1 = a0.getParameters();
-            a1.getSupportedPictureSizes();
-            this.f9613bC = a1.isAutoExposureLockSupported();
-            f9541l += System.currentTimeMillis() + ":Auto exposure lock support = " + this.f9613bC + "\n";
-            WebStart.f9386K = "{\"" + a1.flatten().replace(":", ".").replace(";", "\",\"").replace("=", "\":\"") + "\"}";
-            f9542m = Math.toRadians((double) a1.getVerticalViewAngle());
-            f9543n = Math.toRadians((double) a1.getHorizontalViewAngle());
+        if (f9528b) {
+            // Legacy Camera1 mode only: probe FOV via Camera.open() then release.
+            try {
+                Camera a0 = Camera.open(Integer.parseInt(this.f9667ch));
+                Camera.Parameters a1 = a0.getParameters();
+                a1.getSupportedPictureSizes();
+                this.f9613bC = a1.isAutoExposureLockSupported();
+                f9541l += System.currentTimeMillis() + ":Auto exposure lock support = " + this.f9613bC + "\n";
+                WebStart.f9386K = "{\"" + a1.flatten().replace(":", ".").replace(";", "\",\"").replace("=", "\":\"") + "\"}";
+                f9542m = Math.toRadians((double) a1.getVerticalViewAngle());
+                f9543n = Math.toRadians((double) a1.getHorizontalViewAngle());
+                if (this.f9572aD == 0.0d) {
+                    this.f9572aD = 1.0d;
+                }
+                f9544o = Math.atan(f9546q / (this.f9572aD * 2.0d)) * 2.0d;
+                f9541l += System.currentTimeMillis() + ":FOV calculated: " + f9544o + "\n";
+                f9541l += System.currentTimeMillis() + ":Front camera vertical FOV: " + f9542m + " and horizontal FOV: " + f9543n + "\n";
+                a0.release();
+            } catch (Exception e) {
+                f9541l += System.currentTimeMillis() + ":Error at getting FOV values\n";
+            }
+        } else {
+            // Camera2 mode: set sensible FOV defaults without touching legacy Camera API.
+            f9542m = Math.toRadians(45.0d);
+            f9543n = Math.toRadians(60.0d);
             if (this.f9572aD == 0.0d) {
                 this.f9572aD = 1.0d;
             }
             f9544o = Math.atan(f9546q / (this.f9572aD * 2.0d)) * 2.0d;
-            f9541l += System.currentTimeMillis() + ":FOV calculated: " + f9544o + "\n";
-            f9541l += System.currentTimeMillis() + ":Front camera vertical FOV: " + f9542m + " and horizontal FOV: " + f9543n + "\n";
-            a0.release();
-        } catch (Exception e) {
-            f9541l += System.currentTimeMillis() + ":Error at getting FOV values\n";
+            f9541l += System.currentTimeMillis() + ":Camera2 mode, using default FOV\n";
         }
         CameraManager a7 = (CameraManager) getActivity().getSystemService("camera");
         boolean z = f9517aB;
